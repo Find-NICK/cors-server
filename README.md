@@ -6,7 +6,7 @@
 
 借助 `vercel` 部署服务来进行接口转发
 
-我个人部署了服务，地址为：`[cors-server-ecru.vercel.app](https://find-nick-gitalk.netlify.app/github_access_token)`
+我个人部署了服务，地址为：`https://find-nick-gitalk.netlify.app/github_access_token`
 
 如果不想折腾，只需把配置下的 `proxy` 改为 `https://find-nick-gitalk.netlify.app/github_access_token` 即可，如下
 
