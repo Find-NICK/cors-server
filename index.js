@@ -19,7 +19,7 @@ router.post('/github_access_token', async (ctx, next) => {
 });
 
 router.get('/', async (ctx, next) => {
-  ctx.body = 'Hello,World!\n to use this service,just replace proxy with https://github.com/login/oauth/access_token';
+  ctx.body = 'a cors proxy by netlify!';
   await next();
 })
 
